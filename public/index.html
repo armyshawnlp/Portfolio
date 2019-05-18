@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <!--
+    manifest.json provides metadata used when your web app is added to the
+    homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+  -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <!--
+    Notice the use of %PUBLIC_URL% in the tags above.
+    It will be replaced with the URL of the `public` folder during the build.
+    Only files inside the `public` folder can be referenced from the HTML.
+
+    Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+    work correctly both with client-side routing and a non-root public URL.
+    Learn how to configure a non-root public URL by running `npm run build`.
+  -->
+  <title>React App</title>
+  
+</head>
+<body>
+  <!--<div id="root"></div>-->
+
+<!DOCTYPE html>
+<html>
+<title>Shawn Patton</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/HqgOM5F.png" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="css/shawn.css">
+
+<!-- top menu -->
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="https://www.skylarpatton.com">Sky's Page</a>
+  </li>
+ 
+  <li class="nav-item">
+    <a class="nav-link" href="#!"></a>
+  </li>
+</ul>
+
+
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="https://i.imgur.com/pOM67gX.png?1" style="width:65%;border-style: solid;" class="w3-round"><br><br>
+    
+    	
+<h1 class="title">PORTFOLIO</h1>
+    <p class="w3-text-grey">Shawn Patton</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding" style="color:#0F05E3;"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+            <feBlend in="SourceGraphic" in2="goo"></feBlend>
+        </filter>
+    </defs>
+</svg>
+  
+  <header id="portfolio">
+    <a href="#"><img src="" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+  
+    	
+<h1 class="title">My Portfolio</h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom" style="height: 770px">
+        
+        
+        
+      <img src="https://robert-william-tea.firebaseapp.com/assets/nails.JPG" alt="Posh" style="width:100%; height:200px" class="w3-hover-opacity">
+      
+      <div class="w3-container w3-white">
+          <br>
+        <p><b>Customer Management System</b></p>
+        <p>Class project created for my client, Posh Nails. The application allows the users to create, update, and delete data for various tables. Forms can be cleared and data will display onto the forms text box when clicked from the table. The main window displays 6 buttons linked to separate windows according to the ERD and there is a glossary link on top. Also, the design was done mainly in SceneBuilder and coded to provide functionality between the application and database.
+<b><br>
+<br>
+<br>
+Programming: Java, SceneBuilder
+<br>
+Database: SQL Server
+<br/></b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom" style="height: 770px">
+      <img src="https://robert-william-tea.firebaseapp.com/assets/coffee.JPG" alt="Coffee" style="width:100%; height:200px" class="w3-hover-opaityc">
+      
+      <div class="w3-container w3-white">
+          <br>
+        <p><b>Coffee Ordering System</b></p>
+        <p>Class project created to demonstrate the ability to create, update, and delete orders for a coffee shop. There are 3 drop downs that allows the users to create an order and it will automatically update the subtotal, tax, and total amount. Also, users can create a new account and login/logout. For the manager view, there are 3 additional links that can be accessed separate from the employee view. Cinemagraph is displayed on the login and home page.
+<b><br>
+<br>
+Github: https://github.com/armyshawnlp/Coffee-Project
+<br>
+Heroku:https://young-shore-37443.herokuapp.com/admin
+<br>
+Programming: Ruby, JavaScript, HTML, CSS, Bootstrap
+<br>
+Framework: Rails
+<br/></b><b>
+Database: PostgreSQL
+</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom" style="height: 770px">
+    
+  <iframe class="embed-responsive-item w3-hover-opaityc" src="https://www.youtube.com/embed/bneypmK6l-M" allowfullscreen style="width:100%; height:200px"></iframe>
+
+      <div class="w3-container w3-white" style="border-radius: 0px 0px 30px 30px;margin-top: 0px;">
+          <br>
+        <p><b>Ticketing System | Final project at U of H. </b></p>
+        
+        <p>Final class project created to demonstrate the ability to create, update, and delete orders for a mobile repair shop. There are multiple drop downs that allows the users to create an order and it will automatically update the subtotal, tax, and total amount. Also, users can create a new account and login/logout. For the manager view, there are 3 additional links that can be accessed separate from the employee view. The tickets can add additional harware to repair. All information is available in graphs.
+<b><br>
+<br>
+<br>
+Programming: Ruby, JavaScript, HTML, CSS, Bootstrap
+<br>
+Framework: Rails
+<br/></b><b>
+Database: PostgreSQL
+</b></p>        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="" alt="" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="" alt="" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="" alt="" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">Â«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">Â»</a>
+    </div>
+  </div>
+ -->
+  <!-- Images of Me -->
+
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="" alt="" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="https://i.imgur.com/egEhGac.jpg" alt="" style="width:50%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>I have recently graduated from the University of Houston with a degree in Computer Information Systems. Before that I served 8 years in the Active Army. I initially went in to repair electronics the required a security clearance. I became the Network/System Admin of my company shortly after. </p>
+    <hr>
+    
+    <h4>Currently Studying</h4>
+    <!-- Progress bars / Skills -->
+    <p>Networking</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+    </div>
+    <p>Node.js</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+    </div>
+    <p>Javascript</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+        <i class="fa fa-download w3-margin-right"></i><a href="shawn patton.docx" download="Shawn Patton Resume" style="color:#0F05E3;text-shadow: 3px 2px 3px #737373">Download Resume</a>
+      </button>
+      
+    </p>
+    <hr>
+   <!--
+    <h4>How much I charge</h4>
+    Pricing Tables 
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">1GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-teal w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">Unlimited Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  -->
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large" style="background-color:#737373">
+    <h4 id="contact" style="color:white"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third" style="background-color:#303030;border-radius: 15px 0px 0px 15px;">
+        <p><i class="fa fa-envelope w3-xxlarge" style="color:white"></i></p>
+        <p style="color:white">shawn_patton@outlook.com</p>
+      </div>
+      <div class="w3-third" style="background:#0F05E3;border-radius: 0px;">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p style="color:white">Houston, US</p>
+      </div>
+      <div class="w3-third" style="background-color:#303030;border-radius: 0px 15px 15px 0px;">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p style="color:white">(832) 217-4701</p>
+      </div>
+    </div>
+    
+       <hr class="w3-opacity">
+      <form class="form-contact" action="contactform.php" method="POST">
+        <h2 class="form-contact-heading" style="color:white">Contact Us</h2>
+        <label for="txt" class="sr-only">Name</label>
+        	<input type="name" name="name" id="inputName" class="form-control" placeholder="Your Name" required>
+        <label for="txt" class="sr-only">E-Mail</label>
+        	<input type="email" name="mail" id="inputEmail" class="form-control" placeholder="name@email.com" required>
+        	  <label for="txt" class="sr-only">Subject</label>
+        	<input type="txt" name="subject" class="form-control" placeholder="Subject" required>
+              <label for="inputMessage" class="sr-only">Message</label>
+    		<textarea class="form-control" id="inputMessage" rows="3"></textarea>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" style="background-color:#0F05E3;">Send</button>
+      </form>
+      </div>
+    
+    
+    
+    
+  <!--   
+    
+    <hr class="w3-opacity">
+    <form action="form_to_email.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+  -->
+  <!-- Footer 
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+-->
+<!-- End page content -->
+</div>
+</div>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+</body>
+</html>
+  <!--
+    This HTML file is a template.
+    If you open it directly in the browser, you will see an empty page.
+
+    You can add webfonts, meta tags, or analytics to this file.
+    The build step will place the bundled scripts into the <body> tag.
+
+    To begin the development, run `npm start` or `yarn start`.
+    To create a production bundle, use `npm run build` or `yarn build`.
+  -->
+</body>
+</html>
